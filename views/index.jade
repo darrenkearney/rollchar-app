@@ -1,5 +1,14 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+
+  .container
+    h1= title
+    .item
+      p.
+        Welcome to #{title}.
+
+      p.
+        Rollchar-app is a simple character generator web app to quickly roll up a basic Dark Heresy character.
+        <br>We're on github here:
+          a(href='https://github.com/darrenknet/rollchar-app') https://github.com/darrenknet/rollchar-app
